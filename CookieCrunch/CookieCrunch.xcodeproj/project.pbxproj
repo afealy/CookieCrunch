@@ -18,6 +18,7 @@
 		9E3C6F541FF2D15700FFF4CA /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3C6F531FF2D15700FFF4CA /* Array2D.swift */; };
 		9E3C6F561FF2D5B700FFF4CA /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3C6F551FF2D5B700FFF4CA /* Level.swift */; };
 		9E3C6F5E1FF2E38A00FFF4CA /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3C6F5D1FF2E38A00FFF4CA /* Tile.swift */; };
+		9E3C6F601FF2EB0B00FFF4CA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3C6F5F1FF2EB0B00FFF4CA /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		9E3C6F5B1FF2E33A00FFF4CA /* Level_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
 		9E3C6F5C1FF2E33A00FFF4CA /* Level_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
 		9E3C6F5D1FF2E38A00FFF4CA /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		9E3C6F5F1FF2EB0B00FFF4CA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				9E3C6F531FF2D15700FFF4CA /* Array2D.swift */,
 				9E3C6F3F1FF2C41900FFF4CA /* GameViewController.swift */,
 				9E3C6F5D1FF2E38A00FFF4CA /* Tile.swift */,
+				9E3C6F5F1FF2EB0B00FFF4CA /* Extensions.swift */,
 				9E3C6F411FF2C41900FFF4CA /* Main.storyboard */,
 				9E3C6F4F1FF2C47A00FFF4CA /* Sprites.atlas */,
 				9E3C6F441FF2C41900FFF4CA /* Assets.xcassets */,
@@ -176,6 +179,7 @@
 				9E3C6F561FF2D5B700FFF4CA /* Level.swift in Sources */,
 				9E3C6F3E1FF2C41900FFF4CA /* GameScene.swift in Sources */,
 				9E3C6F521FF2C88700FFF4CA /* Cookie.swift in Sources */,
+				9E3C6F601FF2EB0B00FFF4CA /* Extensions.swift in Sources */,
 				9E3C6F5E1FF2E38A00FFF4CA /* Tile.swift in Sources */,
 				9E3C6F401FF2C41900FFF4CA /* GameViewController.swift in Sources */,
 				9E3C6F381FF2C41900FFF4CA /* AppDelegate.swift in Sources */,
