@@ -24,9 +24,11 @@ class GameViewController: UIViewController {
         // Create and configure the scene.
         scene = GameScene(size: skView.bounds.size)
         scene.scaleMode = .aspectFill
+        scene.swipeHandler = handleSwap
         
-        level = Level(filename: "Levels/Level_1")
+        level = Level(filename: "Level_1")
         scene.level = level
+        scene.addTiles()
         // Present the scene.
         skView.presentScene(scene)
         beginGame()
@@ -56,5 +58,15 @@ class GameViewController: UIViewController {
     func shuffle() {
         let newCookies = level.shuffle()
         scene.addSprites(for: newCookies)
+    }
+    
+    func handleSwap(swap: Swap) {
+        view.isUserInteractionEnabled = false
+        
+        level.performSwap(swap: swap)
+        
+        scene.animate(swap) {
+            self.view.isUserInteractionEnabled = true
+        }
     }
 }

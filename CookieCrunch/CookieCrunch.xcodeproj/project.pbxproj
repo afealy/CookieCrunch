@@ -19,6 +19,12 @@
 		9E3C6F561FF2D5B700FFF4CA /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3C6F551FF2D5B700FFF4CA /* Level.swift */; };
 		9E3C6F5E1FF2E38A00FFF4CA /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3C6F5D1FF2E38A00FFF4CA /* Tile.swift */; };
 		9E3C6F601FF2EB0B00FFF4CA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3C6F5F1FF2EB0B00FFF4CA /* Extensions.swift */; };
+		9E3C6F671FF40E1F00FFF4CA /* Level_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E3C6F621FF40E1F00FFF4CA /* Level_0.json */; };
+		9E3C6F681FF40E1F00FFF4CA /* Level_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E3C6F631FF40E1F00FFF4CA /* Level_1.json */; };
+		9E3C6F691FF40E1F00FFF4CA /* Level_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E3C6F641FF40E1F00FFF4CA /* Level_2.json */; };
+		9E3C6F6A1FF40E1F00FFF4CA /* Level_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E3C6F651FF40E1F00FFF4CA /* Level_3.json */; };
+		9E3C6F6B1FF40E1F00FFF4CA /* Level_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 9E3C6F661FF40E1F00FFF4CA /* Level_4.json */; };
+		9E3C6F6D1FF5704600FFF4CA /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3C6F6C1FF5704600FFF4CA /* Swap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,13 +40,14 @@
 		9E3C6F511FF2C88700FFF4CA /* Cookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
 		9E3C6F531FF2D15700FFF4CA /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		9E3C6F551FF2D5B700FFF4CA /* Level.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
-		9E3C6F581FF2E33A00FFF4CA /* Level_0.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Level_0.json; sourceTree = "<group>"; };
-		9E3C6F591FF2E33A00FFF4CA /* Level_1.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
-		9E3C6F5A1FF2E33A00FFF4CA /* Level_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
-		9E3C6F5B1FF2E33A00FFF4CA /* Level_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
-		9E3C6F5C1FF2E33A00FFF4CA /* Level_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
 		9E3C6F5D1FF2E38A00FFF4CA /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 		9E3C6F5F1FF2EB0B00FFF4CA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9E3C6F621FF40E1F00FFF4CA /* Level_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_0.json; sourceTree = "<group>"; };
+		9E3C6F631FF40E1F00FFF4CA /* Level_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_1.json; sourceTree = "<group>"; };
+		9E3C6F641FF40E1F00FFF4CA /* Level_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_2.json; sourceTree = "<group>"; };
+		9E3C6F651FF40E1F00FFF4CA /* Level_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_3.json; sourceTree = "<group>"; };
+		9E3C6F661FF40E1F00FFF4CA /* Level_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Level_4.json; sourceTree = "<group>"; };
+		9E3C6F6C1FF5704600FFF4CA /* Swap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +82,7 @@
 			children = (
 				9E3C6F371FF2C41900FFF4CA /* AppDelegate.swift */,
 				9E3C6F3D1FF2C41900FFF4CA /* GameScene.swift */,
+				9E3C6F6C1FF5704600FFF4CA /* Swap.swift */,
 				9E3C6F511FF2C88700FFF4CA /* Cookie.swift */,
 				9E3C6F551FF2D5B700FFF4CA /* Level.swift */,
 				9E3C6F531FF2D15700FFF4CA /* Array2D.swift */,
@@ -84,21 +92,21 @@
 				9E3C6F411FF2C41900FFF4CA /* Main.storyboard */,
 				9E3C6F4F1FF2C47A00FFF4CA /* Sprites.atlas */,
 				9E3C6F441FF2C41900FFF4CA /* Assets.xcassets */,
-				9E3C6F571FF2E33A00FFF4CA /* Levels */,
+				9E3C6F611FF40E1F00FFF4CA /* Levels */,
 				9E3C6F461FF2C41900FFF4CA /* LaunchScreen.storyboard */,
 				9E3C6F491FF2C41900FFF4CA /* Info.plist */,
 			);
 			path = CookieCrunch;
 			sourceTree = "<group>";
 		};
-		9E3C6F571FF2E33A00FFF4CA /* Levels */ = {
+		9E3C6F611FF40E1F00FFF4CA /* Levels */ = {
 			isa = PBXGroup;
 			children = (
-				9E3C6F581FF2E33A00FFF4CA /* Level_0.json */,
-				9E3C6F591FF2E33A00FFF4CA /* Level_1.json */,
-				9E3C6F5A1FF2E33A00FFF4CA /* Level_2.json */,
-				9E3C6F5B1FF2E33A00FFF4CA /* Level_3.json */,
-				9E3C6F5C1FF2E33A00FFF4CA /* Level_4.json */,
+				9E3C6F621FF40E1F00FFF4CA /* Level_0.json */,
+				9E3C6F631FF40E1F00FFF4CA /* Level_1.json */,
+				9E3C6F641FF40E1F00FFF4CA /* Level_2.json */,
+				9E3C6F651FF40E1F00FFF4CA /* Level_3.json */,
+				9E3C6F661FF40E1F00FFF4CA /* Level_4.json */,
 			);
 			path = Levels;
 			sourceTree = "<group>";
@@ -163,8 +171,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E3C6F501FF2C47A00FFF4CA /* Sprites.atlas in Resources */,
+				9E3C6F6B1FF40E1F00FFF4CA /* Level_4.json in Resources */,
+				9E3C6F691FF40E1F00FFF4CA /* Level_2.json in Resources */,
+				9E3C6F671FF40E1F00FFF4CA /* Level_0.json in Resources */,
 				9E3C6F431FF2C41900FFF4CA /* Main.storyboard in Resources */,
 				9E3C6F451FF2C41900FFF4CA /* Assets.xcassets in Resources */,
+				9E3C6F681FF40E1F00FFF4CA /* Level_1.json in Resources */,
+				9E3C6F6A1FF40E1F00FFF4CA /* Level_3.json in Resources */,
 				9E3C6F481FF2C41900FFF4CA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,6 +197,7 @@
 				9E3C6F401FF2C41900FFF4CA /* GameViewController.swift in Sources */,
 				9E3C6F381FF2C41900FFF4CA /* AppDelegate.swift in Sources */,
 				9E3C6F541FF2D15700FFF4CA /* Array2D.swift in Sources */,
+				9E3C6F6D1FF5704600FFF4CA /* Swap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
